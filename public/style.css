@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background container */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Title box styling */
+.title-box {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Button box to hold individual buttons */
+.button-box {
+    padding: 10px;
+}
+
+/* Button styling */
+.action-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
